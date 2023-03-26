@@ -45,7 +45,7 @@ def plot_flower_lengths():
         # Save plot file as .png
         plt.savefig(flower_name+"petal_v_sepal_length_regress.png")
         # Output progress statement to the command line
-        print("Analyzed"+flower_name)
+        print("Analyzed "+flower_name)
 
 if __name__ == '__main__':
     plot_flower_lengths()
